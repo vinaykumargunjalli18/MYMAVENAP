@@ -6,7 +6,7 @@ agent only{
 	stages{
 		stage('Checkout'){
 			steps{
-				git branch:'master',url: 'https://github.com/vinaykumargunjalli18/MYMAVENAP'
+				git branch:'main',url: 'https://github.com/vinaykumargunjalli18/MYMAVENAP'
 				}
 			}
 		stage('Build'){
